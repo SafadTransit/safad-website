@@ -552,3 +552,83 @@ footer {
         font-size: 1rem;
     }
 }
+
+/* Tracking Section */
+.tracking-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.tracking-content {
+    background: white;
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.08);
+}
+
+.tracking-content h3 {
+    color: #1a1a2e;
+    margin-bottom: 1rem;
+}
+
+.tracking-content p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.tracking-form {
+    display: flex;
+    gap: 10px;
+}
+
+.tracking-form input {
+    flex: 1;
+    padding: 14px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.tracking-form button {
+    background: #0f3460;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tracking-form button:hover {
+    background: #16213e;
+}
+
+.tracking-info {
+    background: linear-gradient(135deg, #0f3460, #16213e);
+    color: white;
+    padding: 3rem;
+    border-radius: 16px;
+}
+
+.tracking-info h4 {
+    margin-bottom: 1rem;
+}
+
+.tracking-info ul {
+    list-style: none;
+}
+
+.tracking-info li {
+    margin-bottom: 10px;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+    .tracking-box {
+        grid-template-columns: 1fr;
+    }
+}
+
